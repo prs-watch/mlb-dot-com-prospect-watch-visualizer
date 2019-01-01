@@ -6,7 +6,7 @@ Handle extention's popup screen.
 $(function(){
     let data = []
     const background = chrome.extension.getBackgroundPage()
-    let count = background.get_count()['contents']
+    const count = background.count['contents']
     for (const key of Object.keys(count)){
         data.push([key, count[key]])
     }
