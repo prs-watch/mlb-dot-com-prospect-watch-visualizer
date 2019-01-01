@@ -1,3 +1,8 @@
+/*
+Author: prs-watch
+
+Handle extention's popup screen.
+*/
 $(function(){
     let data = []
     const background = chrome.extension.getBackgroundPage()

@@ -1,5 +1,7 @@
 /*
-    background process.
+author: prs-watch
+
+Receive position info.
 */
 let count
 

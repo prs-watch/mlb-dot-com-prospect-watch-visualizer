@@ -1,5 +1,7 @@
 ﻿/*
-    content process.
+author: prs-watch
+
+Get MLB.com Prospect Watch position info and send it to background process.
 */
 $(window).on('load DOMSubtreeModified propertychange', () => {
     let info_list = []
