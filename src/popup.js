@@ -12,7 +12,7 @@ $(function(){
     }
     $('#graph').highcharts({
         title: {
-            text: 'PROSPECTS POSITION CHART'
+            text: 'MLB.com Prospect Watch Visualizer'
         },
         plotOptions: {
             pie: {
